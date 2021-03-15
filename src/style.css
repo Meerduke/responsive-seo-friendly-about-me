@@ -10,7 +10,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+p {
   text-align: center;
   margin: 0;
 }
@@ -80,4 +81,25 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (min-width: 576px) {
+  h2 {
+    text-align: left;
+  }
+  .col-sm-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .app-description {
+    text-align: left;
+  }
+}
+
+@media (max-width: 576px) {
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
 }
