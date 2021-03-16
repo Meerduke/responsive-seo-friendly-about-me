@@ -18,6 +18,7 @@ p {
 
 h1 {
   font-size: 96px;
+  margin-bottom: 10px;
 }
 
 h2 {
@@ -91,15 +92,30 @@ p {
     flex: 0 0 auto;
     width: 50%;
   }
+
+  .col-sm-4 {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+  }
   .app-description {
     text-align: left;
   }
 }
 
 @media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 32px;
+  }
   .project-link {
     display: block;
     text-align: center;
     margin: 0 20px;
+  }
+
+  .email-link {
+    font-size: 24px;
   }
 }
